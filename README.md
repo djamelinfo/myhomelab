@@ -1,6 +1,7 @@
 # Home Lab Setup
 
 This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
+![Rack Setup](https://github.com/yourusername/myhomelab/raw/main/1ekx0qm4bkvd1.jpeg)
 
 ## 1. Main Server: HP ProDesk 400 G4
 - **CPU**: Intel i3-6700
@@ -22,6 +23,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
     - [**Nginx**](https://www.nginx.com/): Web server and reverse proxy
     - [**NextcloudPi**](https://ownyourbits.com/nextcloudpi/): Self-hosted file sharing and collaboration platform
     - [**Vaultwarden**](https://github.com/dani-garcia/vaultwarden): Self-hosted password manager
+    - [**Gitea**](https://gitea.io/en-us/): Self-hosted Git service
     - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
 
 ## 2. Second Server: Lenovo ThinkCenter 710Q
