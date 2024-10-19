@@ -3,7 +3,7 @@
 This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
 ![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/1ekx0qm4bkvd1.jpeg)
 
-## 1. Main Server: HP ProDesk 400 G4
+## 1. Main Server: HP ProDesk 400 G4 SFF
 - **CPU**: Intel i3-6700
 - **RAM**: 32GB
 - **Storage Setup**:
