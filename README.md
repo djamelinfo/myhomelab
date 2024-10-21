@@ -16,7 +16,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
 - **Virtual Machines (VMs)**:
   - [**TrueNAS**](https://www.truenas.com/) VM for storage management
-  - Other services:
+- **Other services LXC**:
     - [**Frigate**](https://frigate.video/): Real-time surveillance with object detection, accelerated by Coral USB TPU
     - [**Jellyfin**](https://jellyfin.org/): Media streaming server
     - [**PhotoPrism**](https://photoprism.app/): AI-based photo management
