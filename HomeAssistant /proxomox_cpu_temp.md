@@ -1,21 +1,21 @@
 # Installing the lm-sensors Package :
-```
-$ apt-get install lm-sensors
+```console
+apt-get install lm-sensors
 ```
 # Geting the HDD temperature :
-```
-$ modprobe drivetemp
-$ echo drivetemp | tee -a /etc/modules
+```console
+modprobe drivetemp
+echo drivetemp | tee -a /etc/modules
 ```
 # Creating a long-lived access token :
 
 In HA, click your profile at the left and scroll down to Long-Lived Access Tokens. Click Create Token, give it a name and copy the generated character string.
 
 # Creating the sensors script : 
+```console
+nano proxomox_cpu_temp.sh
 ```
-$ nano proxomox_cpu_temp.sh
-```
-```
+```bash
 #!/bin/bash
 
 # Home Assistant Settings
@@ -70,19 +70,19 @@ fi
 $ chmod +x proxomox_cpu_temp.sh
 ```
 To check the output of the script, run the following command:
-```
-$ /root/proxomox_cpu_temp.sh
+```console
+/root/proxomox_cpu_temp.sh
 ```
 # Creating a automated cronjob
-```
-$ crontab -e
+```console
+crontab -e
 ```
 The following code will make the script run once per minute
 ```
-$ */1 * * * * /root/ha_post_temp.sh
+*/1 * * * * /root/ha_post_temp.sh
 ```
-```
-$ systemctl restart cron.service
-$ systemctl status cron.service
+```console
+systemctl restart cron.service
+systemctl status cron.service
 ```
 The sensors are automatically added to Home Assistant without any additional steps.
