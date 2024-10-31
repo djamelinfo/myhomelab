@@ -11,7 +11,9 @@ This is a comprehensive overview of my home lab environment, which consists of v
     - 512GB SSD for Proxmox OS
     - 256GB SSD for caching
   - **PCIe to SAS HBA Card**: Used for 4x 4TB HDDs, passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
-  - **WiFi-M.2 to SATA 3.0 Adapter**: Used to connect a 2TB 2.5" HDD, primarily for Frigate and LXC backups.
+  - **WiFi-M.2 to SATA 3.0 Adapter**: Used to connect:
+    - 2TB 2.5" HDD, primarily for Frigate and LXC backups.
+    - 256GB SSD for VM disk storege.
 - **Hardware**:
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
 - **Virtual Machines (VMs)**:
