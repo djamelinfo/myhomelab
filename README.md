@@ -1,7 +1,7 @@
 # Home Lab Setup
 
 This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
-![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/IMG_20241031_151244038.jpg)
+![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/IMG_20241101_162530599.jpg).
 
 ## 1. Main Server: HP ProDesk 400 G4 SFF
 - **Hardware**:
