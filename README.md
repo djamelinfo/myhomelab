@@ -17,6 +17,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
 - **Hardware**:
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
 - **Virtual Machines (VMs)**:
+  - [**Home Assistant**](https://www.home-assistant.io/): Home automation platform
   - [**TrueNAS**](https://www.truenas.com/) VM for storage management
 - **Other services (LXC)**:
     - [**Frigate**](https://frigate.video/): Real-time surveillance with object detection, accelerated by Coral USB TPU
@@ -37,7 +38,6 @@ This is a comprehensive overview of my home lab environment, which consists of v
   - 1TB NVMe for OS
   - 1TB 2.5" HDD
 - **Virtual Machines (VMs)**:
-  - [**Home Assistant**](https://www.home-assistant.io/): Home automation platform
   - [**Proxmox Backup Server**](https://www.proxmox.com/en/proxmox-backup-server): For managing backups
 
 ## 3. Raspberry Pi 4
