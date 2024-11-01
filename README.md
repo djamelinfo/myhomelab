@@ -27,6 +27,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
     - [**Vaultwarden**](https://github.com/dani-garcia/vaultwarden): Self-hosted password manager
     - [**Gitea**](https://gitea.io/en-us/): Self-hosted Git service
     - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
+
 ![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/Screenshot_20241101_135806_Chrome.jpg).
 
 ## 2. Second Server: Lenovo ThinkCenter 710Q
