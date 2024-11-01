@@ -4,17 +4,17 @@ This is a comprehensive overview of my home lab environment, which consists of v
 ![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/IMG_20241031_151244038.jpg)
 
 ## 1. Main Server: HP ProDesk 400 G4 SFF
-- **CPU**: Intel i3-6700
-- **RAM**: 32GB
-- **Storage Setup**:
-  - **SATA 3.0 Connectors**: The motherboard has 2 SATA 3.0 connectors:
-    - 512GB SSD for Proxmox OS
-    - 256GB SSD for caching
-  - **PCIe to SAS HBA Card**: Used for 4x 4TB HDDs, passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
-  - **WiFi-M.2 to SATA 3.0 Adapter**: Used to connect:
-    - 2TB 2.5" HDD, primarily for Frigate and LXC backups.
-    - 256GB SSD for VM disk storege.
 - **Hardware**:
+  - **CPU**: Intel i5-6500T
+  - **RAM**: 32GB
+  - **Storage Setup**:
+    - **SATA 3.0 Connectors**: The motherboard has 2 SATA 3.0 connectors:
+      - 512GB SSD for Proxmox OS
+      - 256GB SSD for caching
+    - **PCIe to SAS HBA Card**: Used for 4x 4TB HDDs, passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
+    - **WiFi-M.2 to SATA 3.0 Adapter**: Used to connect:
+      - 2TB 2.5" HDD, primarily for Frigate and LXC backups.
+      - 256GB SSD for VM disk storege.
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
 - **Virtual Machines (VMs)**:
   - [**Home Assistant**](https://www.home-assistant.io/): Home automation platform
