@@ -19,6 +19,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
 - **Virtual Machines (VMs)**:
   - [**Home Assistant**](https://www.home-assistant.io/): Home automation platform
   - [**TrueNAS**](https://www.truenas.com/) VM for storage management
+    ![TrueNas](https://github.com/djamelinfo/myhomelab/raw/main/Screenshot_20241102_173951_Chrome.jpg).
 - **Other services (LXC)**:
     - [**Frigate**](https://frigate.video/): Real-time surveillance with object detection, accelerated by Coral USB TPU
     - [**Jellyfin**](https://jellyfin.org/): Media streaming server
