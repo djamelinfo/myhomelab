@@ -57,7 +57,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
 ## 5. Networking Equipment
 - **UniFi Cloud Gateway Ultra**: Network management and routing
 - **2x UniFi AP LR**: Long-range wireless access points for Wi-Fi coverage
-- **Netgear 8-port PoE switch**: Power-over-Ethernet for devices like access points
+- **Netgear 8-port PoE switch GS308PP**: Power-over-Ethernet for devices like access points
 - **TP-Link 8-port managed switch**: For managing network traffic
 - **TP-Link 8-port switch**: Basic network connectivity
 
