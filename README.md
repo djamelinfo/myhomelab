@@ -43,7 +43,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
 
 ## 3. Raspberry Pi 4
 - **RAM**: 4GB
-- **Storage**: 64GB SSD
+- **Storage**: 64GB SD Card
 - **Running Services**:
   - [**Homer Dashboard**](https://github.com/bastienwirtz/homer): Docker containers, including a customizable dashboard
   - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
