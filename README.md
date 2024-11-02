@@ -46,13 +46,14 @@ This is a comprehensive overview of my home lab environment, which consists of v
 - **Storage**: 64GB SSD
 - **Running Services**:
   - [**Homer Dashboard**](https://github.com/bastienwirtz/homer): Docker containers, including a customizable dashboard
+  - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
 
 ## 4. Raspberry Pi 5
 - **RAM**: 4GB
 - **Storage**: 120GB SSD
 - **Running Services**:
   - [**HyperHDR**](https://github.com/awawa-dev/HyperHDR): For advanced HDR lighting setups
-  - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
+  
 
 ## 5. Networking Equipment
 - **UniFi Cloud Gateway Ultra**: Network management and routing
