@@ -58,8 +58,8 @@ This is a comprehensive overview of my home lab environment, which consists of v
 - **UniFi Cloud Gateway Ultra**: Network management and routing
 - **2x UniFi AP LR**: Long-range wireless access points for Wi-Fi coverage
 - **Netgear 8-port PoE switch GS308PP**: Power-over-Ethernet for devices like access points
-- **TP-Link 8-port managed switch**: For managing network traffic
-- **TP-Link 8-port switch**: Basic network connectivity
+- **TP-Link 8-port managed switch TL-SG608E**: For managing network traffic
+- **TP-Link 8-port switch TL-SG108**: Basic network connectivity
 
 ## Overview
 This home lab setup allows me to experiment with various applications and services while maintaining an efficient and organized environment. It's designed for both learning and practical applications in home automation, media consumption, and network management.
