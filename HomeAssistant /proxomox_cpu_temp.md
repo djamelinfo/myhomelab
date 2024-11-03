@@ -86,4 +86,4 @@ systemctl restart cron.service
 systemctl status cron.service
 ```
 The sensors are automatically added to Home Assistant without any additional steps.
-![temp](https://github.com/djamelinfo/myhomelab/raw/main//HomeAssistant/temp.png)
+![temp](https://github.com/djamelinfo/myhomelab/raw/main/images/temp.png)
