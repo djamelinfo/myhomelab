@@ -3,7 +3,8 @@
 This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
 ![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241102_163709229.jpg).
 
-## 1. Main Server: HP ProDesk 400 G4 SFF
+## 1. Main Server: HP ProDesk 400 G4 SFF running Proxmox
+![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg).
 - **Hardware**:
   - **CPU**: Intel i5-6500T
   - **RAM**: 32GB
@@ -32,7 +33,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
     - [**Gitea**](https://gitea.io/en-us/): Self-hosted Git service
     - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
 
-![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg).
+
 
 ## 2. Second Server: Lenovo ThinkCenter 710Q
 - **CPU**: Intel i3-7100T
