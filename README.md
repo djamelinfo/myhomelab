@@ -1,6 +1,8 @@
 # Home Lab Setup
 
-This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
+This is my personal homelab setup, awakening my home with various services and tools. I hope this setup can inspire you as you build your own homelab!
+
+With an HP ProDesk 400 G4 SFF at the core, I’ve tailored this server to meet a range of needs from media streaming and file storage to home automation and security. Over the last months, I’ve optimized each component for efficiency, using Proxmox as the main OS and TrueNAS for storage management. This setup is designed to maximize performance while keeping power consumption low, idling at just 28W.
 
 <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241102_163709229.jpg" alt="Rack Setup" width="600"/>
 
@@ -65,7 +67,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
   - [**Homer Dashboard**](https://github.com/bastienwirtz/homer): Docker containers, including a customizable dashboard
 
     <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/homer.jpg" alt="Homer" width="400"/>
-    
+
   - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
 
 ## 4. Raspberry Pi 5
