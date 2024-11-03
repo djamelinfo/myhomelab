@@ -4,12 +4,12 @@ This is a comprehensive overview of my home lab environment, which consists of v
 ![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241102_163709229.jpg).
 
 ## 1. Main Server: HP ProDesk 400 G4 SFF running Proxmox
-![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg).
+![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg)
 - **Hardware**:
   - **CPU**: Intel i5-6500T
   - **RAM**: 32GB
   - **Storage Setup**:
-    - **SATA 3.0 Connectors**: The motherboard has 2 SATA 3.0 connectors:
+    - **The motherboard has 2 SATA 3.0 connectors**:
       - 512GB SSD for Proxmox OS
       - 256GB SSD for caching
     - **PCIe to SAS HBA Card**: Used for 4x 4TB HDDs, passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
