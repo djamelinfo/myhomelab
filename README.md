@@ -1,7 +1,7 @@
 # Home Lab Setup
 
 This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
-![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/IMG_20241102_163709229.jpg).
+![Rack Setup](https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241102_163709229.jpg).
 
 ## 1. Main Server: HP ProDesk 400 G4 SFF
 - **Hardware**:
@@ -19,7 +19,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
 - **Virtual Machines (VMs)**:
   - [**Home Assistant**](https://www.home-assistant.io/): Home automation platform
   - [**TrueNAS**](https://www.truenas.com/) VM for storage management
-    ![TrueNas](https://github.com/djamelinfo/myhomelab/raw/main/Screenshot_20241102_173951_Chrome.jpg).
+    ![TrueNas](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241102_173951_Chrome.jpg).
 - **Other services (LXC)**:
     - [**Frigate**](https://frigate.video/): Real-time surveillance with object detection, accelerated by Coral USB TPU
     - [**Jellyfin**](https://jellyfin.org/): Media streaming server
@@ -30,7 +30,7 @@ This is a comprehensive overview of my home lab environment, which consists of v
     - [**Gitea**](https://gitea.io/en-us/): Self-hosted Git service
     - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
 
-![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/Screenshot_20241101_135806_Chrome.jpg).
+![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg).
 
 ## 2. Second Server: Lenovo ThinkCenter 710Q
 - **CPU**: Intel i3-7100T
