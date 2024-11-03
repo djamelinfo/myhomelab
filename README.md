@@ -1,7 +1,7 @@
 # Home Lab Setup
 
 This is a comprehensive overview of my home lab environment, which consists of various servers and devices configured to support multiple services and applications.
-<img src="![drawing.jpg](https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241102_163709229.jpg)" alt="Rack Setup" width="200"/>
+<img src="https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241102_163709229.jpg" alt="Rack Setup" width="200"/>
 
 ## 1. Main Server: HP ProDesk 400 G4 SFF running Proxmox
 ![Proxmox](https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg)
