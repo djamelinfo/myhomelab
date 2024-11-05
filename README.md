@@ -63,7 +63,7 @@ At the heart of it is an HP ProDesk 400 G4 SFF, customized to handle everything 
 ## 3. Raspberry Pi 4
 - **RAM**: 4GB
 - **Storage**: 64GB SD Card
-- **Running Services**:
+- **Running Services in Docker**:
   - [**Homer Dashboard**](https://github.com/bastienwirtz/homer): Docker containers, including a customizable dashboard
 
     <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/homer.jpg" alt="Homer" width="400"/>
