@@ -69,6 +69,7 @@ At the heart of it is an HP ProDesk 400 G4 SFF, customized to handle everything 
     <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/homer.jpg" alt="Homer" width="400"/>
 
   - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
+  - [**PiKvm**](https://github.com/pikvm/pikvm): IP-KVM based on Raspberry Pi
 
 ## 4. Raspberry Pi 5
 - **RAM**: 4GB
