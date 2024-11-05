@@ -71,7 +71,7 @@ At the heart of it is an HP ProDesk 400 G4 SFF, customized to handle everything 
   - [**Pi-hole**](https://pi-hole.net/): Network-wide ad blocker
   - [**PiKVM**](https://github.com/pikvm/pikvm): IP-KVM based on Raspberry Pi
 
-  <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241105_160810802.jpg" alt="rpi4" width="400"/>
+   <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241105_160810802.jpg" alt="rpi4" width="300"/>
 
 ## 4. Raspberry Pi 5
 - **RAM**: 4GB
