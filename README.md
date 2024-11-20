@@ -4,7 +4,7 @@ This is my personal homelab setup, awakening my home with various services and t
 
 At the heart of it is an HP ProDesk 400 G4 SFF, customized to handle everything from media streaming and file storage to home automation and security. Over the last 8 months, I’ve fine-tuned this setup for efficiency, using Proxmox as the main OS and TrueNAS for managing storage. The entire rack idles at around 90W, balancing performance and power consumption to keep everything running smoothly.
 
-<img src="https://github.com/djamelinfo/myhomelab/raw/main/images/images/IMG_20241120_105814773.jpg" alt="Rack Setup" width="600"/>
+<img src="https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241120_105814773.jpg" alt="Rack Setup" width="600"/>
 
 ## 1. Main Server: HP ProDesk 400 G4 SFF running Proxmox
 
