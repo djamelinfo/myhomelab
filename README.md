@@ -32,6 +32,8 @@ At the heart of it is an Dell Precision T3620, customized to handle everything f
 
     <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241102_173951_Chrome.jpg" alt="TrueNas" width="400"/>
 
+  - **Windows VM** for gaming with GPU passthrough
+  - **Pop!_OS VM** for running an Olama model
 - **Other services (LXC)**:
     - [**Frigate**](https://frigate.video/): Real-time surveillance with object detection, accelerated by Coral USB TPU
       
