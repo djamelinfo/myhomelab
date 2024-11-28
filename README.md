@@ -17,7 +17,7 @@ At the heart of it is an Dell Precision T3620, customized to handle everything f
     - 1TB NVMe SSD for VM storage
     - Three 256GB SATA SSDs
     - 2TB 2.5" HDD
-    - Four 4TB 3.5" HDDs in RAIDZ1 for TrueNAS, connected via a SAS to SATA HBA card passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
+    - Four 4TB 3.5" HDDs in RAIDZ1, connected via a SAS to SATA HBA card passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
   - **GPU**: NVIDIA Quadro RTX 4000 (for Jellyfin transcoding, occasional gaming, and running LLMs)
   - **PSU**: Cooler Master MWE 650 Bronze
