@@ -2,7 +2,7 @@
 
 This is my personal homelab setup, awakening my home with various services and tools. I hope this setup can inspire you as you build your own homelab!
 
-At the heart of it is an HP ProDesk 400 G4 SFF, customized to handle everything from media streaming and file storage to home automation and security. Over the last 8 months, I’ve fine-tuned this setup for efficiency, using Proxmox as the main OS and TrueNAS for managing storage. The entire rack idles at around 90W, balancing performance and power consumption to keep everything running smoothly.
+At the heart of it is an Dell Precision T3620, customized to handle everything from media streaming and file storage to home automation and security. Over the last 8 months, I’ve fine-tuned this setup for efficiency, using Proxmox as the main OS and TrueNAS for managing storage. The entire rack idles at around 90W, balancing performance and power consumption to keep everything running smoothly.
 
 <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/IMG_20241120_105814773.jpg" alt="Rack Setup" width="600"/>
 
@@ -11,17 +11,18 @@ At the heart of it is an HP ProDesk 400 G4 SFF, customized to handle everything 
 <img src="https://github.com/djamelinfo/myhomelab/raw/main/images/Screenshot_20241101_135806_Chrome.jpg" alt="Proxmox" width="600"/>
 
 - **Hardware**:
-  - **CPU**: Intel i5-6500T
-  - **RAM**: 32GB
+  - **CPU**:  Intel i7-7700
+  - **RAM**: 48GB
   - **Storage Setup**:
-    - **The motherboard has 2 SATA 3.0 connectors**:
-      - 512GB SSD for Proxmox OS
-      - 256GB SSD for caching
-    - **PCIe to SAS HBA Card**: Used for 4x 4TB HDDs, passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
-    - **WiFi-M.2 to SATA 3.0 Adapter**: Used to connect:
-      - 2TB 2.5" HDD, primarily for Frigate and LXC backups.
-      - 256GB SSD for VM disk storege.
+    - 1TB NVMe SSD for VM storage
+    - Three 256GB SATA SSDs
+    - 2TB 2.5" HDD
+    - Four 4TB 3.5" HDDs in RAIDZ1 for TrueNAS, connected via a SAS to SATA HBA card passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
+  - **GPU**: NVIDIA Quadro RTX 4000 (for Jellyfin transcoding, occasional gaming, and running LLMs)
+  - **PSU**: Cooler Master MWE 650 Bronze
+  - Cooling: Added an extra fan for improved airflow
+  - Power Consumption: Averages around 65W
 - **Virtual Machines (VMs)**:
   - [**Home Assistant**](https://www.home-assistant.io/): Home automation platform
 
