@@ -19,7 +19,7 @@ At the heart of it is an Dell Precision T3620, customized to handle everything f
     - 2TB 2.5" HDD
     - Four 4TB 3.5" HDDs in RAIDZ1, connected via a SAS to SATA HBA card passed through to the [**TrueNAS**](https://www.truenas.com/) VM for storage management.
   - **Coral USB TPU**: For accelerating machine learning tasks (e.g., object detection in Frigate)
-  - **GPU**: NVIDIA Quadro RTX 4000 (for Jellyfin transcoding, occasional gaming, and running LLMs)
+  - **GPU**: NVIDIA Quadro RTX 4000 (occasional gaming, and running LLMs)
   - **PSU**: Cooler Master MWE 650 Bronze
   - Cooling: Added an extra fan for improved airflow
   - Power Consumption: Averages around 65W
